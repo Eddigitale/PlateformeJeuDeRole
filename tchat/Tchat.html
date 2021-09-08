@@ -1,0 +1,32 @@
+<div>
+  <div class="tchat">
+    <ul id="messages"></ul>
+  </div>
+  <div class="position_message">
+    <input
+      id="message"
+      type="text"
+      name="zone-message"
+      placeholder="Votre message..."
+    />
+    <button id="button-chat" onclick="send()">Envoyer</button>
+  </div>
+</div>
+<script src="./socket.io/socket.io.js"></script>
+<script>
+  // var socket = io(3000);
+  // var socket = io.connect(':3000');
+  
+
+  var send = function () {
+    var text = document.querySelector("#message").value;
+    socket.emit("chat message", text);
+  };
+  var recieve = function (msg) {
+    var li = document.createElement("li");
+    li.innerText = msg;
+    document.querySelector("#messages").appendChild(li);
+    d;
+  };
+  socket.on("chat message", recieve);
+</script>

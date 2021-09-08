@@ -1,0 +1,40 @@
+header {
+  background-color: rgba(90, 43, 9, 0.781);
+  border-bottom: double 6px white;
+  padding-bottom: 1vh;
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.alignement_connection {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.Titre {
+  width: 100%;
+  text-align: center;
+  margin-left: 7%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+}
+h3 {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}

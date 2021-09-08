@@ -1,0 +1,106 @@
+#body {
+  background: url(../image/taverne.jpg) no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+header {
+  background-color: rgba(90, 43, 9, 0.781);
+  border-bottom: double 6px white;
+  padding-bottom: 1vh;
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.connection {
+  width: 15%;
+}
+.alignement_connection {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.Titre {
+  width: 100%;
+  text-align: center;
+  margin-left: 7%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+}
+h3 {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+p {
+  font-size: 20px;
+  color: white;
+  font-style: italic;
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+.logo-footer img {
+  width: 50px;
+  height: 50px;
+  margin-left: 2rem;
+}
+.logo-social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10vh;
+}
+.join {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  font-style: italic;
+}
+
+span {
+  font-size: 30px;
+}
+main {
+  border: double 6px white;
+  background-color: rgba(90, 43, 9, 0.781);
+  margin: auto;
+  margin-top: 8%;
+  width: 60%;
+  padding-bottom: 5vh;
+  background-color: rgba(90, 43, 9, 0.781);
+}
+#account {
+  font-size: 24px;
+  font-weight: bold;
+  width: 100%;
+  background-color: rgba(90, 43, 9, 0.781);
+  color: white;
+  border-bottom: double 6px white;
+  border-left: double 6px white;
+  padding: 2px 10px 4px 10px;
+}
+#account_options {
+  width: 12%;
+  position: absolute;
+}
+.user_options {
+  display: block;
+  width: 100%;
+  background-color: rgba(90, 43, 9, 0.781);
+  color: white;
+}
